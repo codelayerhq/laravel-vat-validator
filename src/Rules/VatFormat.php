@@ -11,7 +11,7 @@ class VatFormat implements Rule
      */
     public function passes($attribute, $value)
     {
-        return app('vat_format')->isValid($value);
+        return app('vat-format')->isValid($value);
     }
 
     /**

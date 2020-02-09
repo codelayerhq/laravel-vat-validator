@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'vat_number' => 'Ungültige Umsatzsteuernummer.',
+    'vat_number' => 'Die USt-IdNr. ist ungültig.',
 ];

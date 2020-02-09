@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'vat_number' => 'Invalid vat number.',
+    'vat_number' => 'The VAT No. is invalid.',
 ];
