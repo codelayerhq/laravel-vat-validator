@@ -1,0 +1,50 @@
+{
+    "name": "codelayer/laravel-vat-validator",
+    "description": "Validate the format of EU vat numbers.",
+    "keywords": [
+        "laravel",
+        "eu",
+        "vat",
+        "tax",
+        "validation"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tobias Dierich",
+            "email": "tobias@codelayer.de",
+            "homepage": "https://codelayer.de",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "illuminate/support": "^5.8|^6.0|^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codelayer\\VatValidator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Codelayer\\VatValidator\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codelayer\\VatValidator\\VatValidatorServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
