@@ -1,6 +1,6 @@
 # Validate the format of EU VAT identification numbers
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/codelayer/laravel-vat-validator.svg?style=flat-square)](https://packagist.org/packages/codelayer/laravel-vat-validator)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/codelayer/laravel-vat-validator.svg?style=flat-square)](https://packagist.org/packages/codelayer/laravel-vat-validator) ![phpunit](https://github.com/codelayerhq/laravel-vat-validator/workflows/phpunit/badge.svg?branch=master)
 
 This package can be used to validate EU VAT identification numbers such as `DE123456789`.
 
